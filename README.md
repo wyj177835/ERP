@@ -28,3 +28,22 @@ SVM classification
 │── SVM_classification,py
 │── README.md # Project description
 
+##  Requirements
+- numpy==1.26.4
+- pandas==2.2.3
+- matplotlib==3.9.4
+- scipy==1.13.1
+- scikit-learn==1.3.0
+- torch==2.5.1
+- torchvision==0.20.1
+- Pillow==11.2.1
+- opencv-python==4.11.0.86
+- mediapipe==0.10.21
+- tqdm==4.65.2
+  
+You can install dependencies with:
+```bash
+pip install -r requirements.txt
+
+
+
