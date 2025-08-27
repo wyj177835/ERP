@@ -58,6 +58,6 @@ pip install -r requirements.txt
 - Established performance baselines for future research in elderly fall detection.
 
 ## Future Work
-Improve generalization using larger, more diverse datasets.
-Incorporate temporal modeling (RNN, LSTM, or GNNs) for sequential skeleton analysis.
-Develop lightweight models for real-time deployment on edge devices.
+- Improve generalization using larger, more diverse datasets.
+- Incorporate temporal modeling (RNN, LSTM, or GNNs) for sequential skeleton analysis.
+- Develop lightweight models for real-time deployment on edge devices.
