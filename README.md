@@ -52,3 +52,12 @@ pip install -r requirements.txt
 - SVM achieved 76.15% accuracy and ROC-AUC of 0.836, outperforming clustering approaches.
 - Figures such as accuracy/loss curves, PCA visualizations, clustering results, and ROC curves are available in the results/ folder.
 
+##  Contributions
+- Provided a systematic comparison between deep learning, supervised learning, and unsupervised learning for fall detection.
+- Explored the use of skeleton-based features for lightweight and interpretable models.
+- Established performance baselines for future research in elderly fall detection.
+
+## Future Work
+Improve generalization using larger, more diverse datasets.
+Incorporate temporal modeling (RNN, LSTM, or GNNs) for sequential skeleton analysis.
+Develop lightweight models for real-time deployment on edge devices.
