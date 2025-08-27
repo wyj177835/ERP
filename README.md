@@ -44,6 +44,11 @@ SVM classification
 You can install dependencies with:
 ```bash
 pip install -r requirements.txt
+```
 
-
+##  Results
+- 3DCNN achieved ~97% validation accuracy on the Multiple Cameras Fall Dataset.
+- Unsupervised clustering on keypoint/angle features showed limited separation (Purity ~0.52).
+- SVM achieved 76.15% accuracy and ROC-AUC of 0.836, outperforming clustering approaches.
+- Figures such as accuracy/loss curves, PCA visualizations, clustering results, and ROC curves are available in the results/ folder.
 
