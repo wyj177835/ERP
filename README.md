@@ -45,9 +45,8 @@ You can install dependencies with:
 ```bash
 pip install -r requirements.txt
 ```
-##  Screenshots
 
-``` markdown
+##  Screenshots
 - Safe State
 ！[Safe State](images/1.png)
 
@@ -56,7 +55,6 @@ pip install -r requirements.txt
 
 - Fallen State
 ! [Fallen State](images/3.png)
-```
 
 ## Usage
 ```bash
