@@ -62,7 +62,18 @@ pip install -r requirements.txt
 ```bash
 python 3.Model_mediapipe.py
 ```
+1. **Prepare video frames**
+   - Split your video into frames, for example using `ffmpeg`:
+     ```bash
+     ffmpeg -i video.mp4 -qscale:v 2 frames/%04d.jpg
+     ```
+   - Make sure frame filenames contain numbers, e.g. `0001.jpg, 0002.jpg, ...`
 
+2. **Run the program**
+   ```bash
+   python 3.Model_mediapipe.py
+
+   
 ##  Results
 - 3DCNN achieved ~97% validation accuracy on the Multiple Cameras Fall Dataset.
 - Unsupervised clustering on keypoint/angle features showed limited separation (Purity ~0.52).
