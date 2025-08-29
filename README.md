@@ -61,21 +61,19 @@ pip install -r requirements.txt
 
 
 ## Usage
-```bash
-python 3.Model_mediapipe.py
-```
+
 1. **Prepare video frames**
    - Split your video into frames, for example using `ffmpeg`:
    ```bash
-   python Extract_Frame.py --video_root D:/ERP/videos --output_root D:/ERP/frames --fps_interval 1
+   python Extract_Frame.py --video_root * --output_root * --fps_interval *
    ```
-  This script extracts frames from multiple `.avi` videos and saves them as `.jpg` images.
- - Make sure frame filenames contain numbers, e.g. `0001.jpg, 0002.jpg, ...`
+   - This script extracts frames from multiple `.avi` videos and saves them as `.jpg` images.
+   - Make sure frame filenames contain numbers, e.g. `0001.jpg, 0002.jpg, ...`
 
 2. **Run the program**
    ```bash
    python 3.Model_mediapipe.py
-
+   ```
    
 ##  Results
 - 3DCNN achieved ~97% validation accuracy on the Multiple Cameras Fall Dataset.
