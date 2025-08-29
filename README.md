@@ -11,6 +11,8 @@ It explores multiple approaches including:
 ---
 
 ##  Project Structure
+Preparation
+│── Extract_Frame.py
 Train 3DCNN model
 │── 1.3DCNN_model.py 
 │── 2.Only_Mediapipe.py 
@@ -64,10 +66,11 @@ python 3.Model_mediapipe.py
 ```
 1. **Prepare video frames**
    - Split your video into frames, for example using `ffmpeg`:
-     ```bash
-     ffmpeg -i video.mp4 -qscale:v 2 frames/%04d.jpg
-     ```
-   - Make sure frame filenames contain numbers, e.g. `0001.jpg, 0002.jpg, ...`
+   ```bash
+   python Extract_Frame.py --video_root D:/ERP/videos --output_root D:/ERP/frames --fps_interval 1
+   ```
+  This script extracts frames from multiple `.avi` videos and saves them as `.jpg` images.
+ - Make sure frame filenames contain numbers, e.g. `0001.jpg, 0002.jpg, ...`
 
 2. **Run the program**
    ```bash
