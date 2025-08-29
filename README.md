@@ -9,8 +9,9 @@ It explores multiple approaches including:
 - **Support Vector Machine (SVM)** for supervised classification of pose-based features.
 
 ---
-
 ##  Project Structure
+
+```bash
 Preparation
 │── Extract_Frame.py
 Train 3DCNN model
@@ -29,7 +30,7 @@ Cluster analysis of Angle + Time of posture
 SVM classification
 │── SVM_classification,py
 │── README.md # Project description
-
+```
 ##  Requirements
 - numpy==1.26.4
 - pandas==2.2.3
@@ -63,7 +64,7 @@ pip install -r requirements.txt
 ## Usage
 
 1. **Prepare video frames**
-   - Split your video into frames, for example using `ffmpeg`:
+   - Split your video into frames, using script:
    ```bash
    python Extract_Frame.py --video_root * --output_root * --fps_interval *
    ```
@@ -90,3 +91,15 @@ pip install -r requirements.txt
 - Improve generalization using larger, more diverse datasets.
 - Incorporate temporal modeling (RNN, LSTM, or GNNs) for sequential skeleton analysis.
 - Develop lightweight models for real-time deployment on edge devices.
+
+## Dataset
+- The dataset is not included in this repo due to size limits.  
+- Please download it from: [Google Drive link](https://www.iro.umontreal.ca/~labimage/Dataset/)
+- Please download data annotation from: [Google Drive link](https://www.kaggle.com/datasets/soumicksarker/multiple-cameras-fall-dataset?resource=download)
+- After downloading, place it under:
+```bash
+- D:/ERP/videos/
+  ├── chute01/
+  │     ├── cam1.avi
+  │     ├── cam2.avi
+```
