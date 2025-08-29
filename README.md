@@ -47,14 +47,16 @@ pip install -r requirements.txt
 ```
 
 ## Screenshots
+
 - Safe State  
-  ![Safe State](images/1.png)
+  <img src="images/1.png" alt="Safe State" width="300">
 
 - Falling State  
-  ![Falling State](images/2.png)
+  <img src="images/2.png" alt="Falling State" width="300">
 
 - Fallen State  
-  ![Fallen State](images/3.png)
+  <img src="images/3.png" alt="Fallen State" width="300">
+
 
 ## Usage
 ```bash
