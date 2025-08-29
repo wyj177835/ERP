@@ -46,8 +46,13 @@ You can install dependencies with:
 pip install -r requirements.txt
 ```
 ##  Screenshots
+- Safe State
+！[Safe State](images/1.png)
 
+- Falling State
+! [Falling State](images/2.png)
 
+! [Fallen State](images/3.png)
 
 
 ## Usage
