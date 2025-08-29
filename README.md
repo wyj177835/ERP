@@ -45,6 +45,15 @@ You can install dependencies with:
 ```bash
 pip install -r requirements.txt
 ```
+##  Screenshots
+
+
+
+
+## Usage
+```bash
+python 3.Model_mediapipe.py
+```
 
 ##  Results
 - 3DCNN achieved ~97% validation accuracy on the Multiple Cameras Fall Dataset.
