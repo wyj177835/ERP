@@ -9,6 +9,19 @@ It explores multiple approaches including:
 - **Support Vector Machine (SVM)** for supervised classification of pose-based features.
 
 ---
+
+## Dataset
+- The dataset is not included in this repo due to size limits.  
+- Please download it from: https://www.iro.umontreal.ca/~labimage/Dataset/
+- Please download data annotation from: https://www.kaggle.com/datasets/soumicksarker/multiple-cameras-fall-dataset?resource=download
+- After downloading, place it under:
+```bash
+- D:/ERP/videos/
+  ├── chute01/
+  │     ├── cam1.avi
+  │     ├── cam2.avi
+```
+
 ##  Project Structure
 
 ```bash
@@ -92,14 +105,3 @@ pip install -r requirements.txt
 - Incorporate temporal modeling (RNN, LSTM, or GNNs) for sequential skeleton analysis.
 - Develop lightweight models for real-time deployment on edge devices.
 
-## Dataset
-- The dataset is not included in this repo due to size limits.  
-- Please download it from: https://www.iro.umontreal.ca/~labimage/Dataset/
-- Please download data annotation from: https://www.kaggle.com/datasets/soumicksarker/multiple-cameras-fall-dataset?resource=download
-- After downloading, place it under:
-```bash
-- D:/ERP/videos/
-  ├── chute01/
-  │     ├── cam1.avi
-  │     ├── cam2.avi
-```
