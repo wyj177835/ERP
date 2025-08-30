@@ -28,7 +28,7 @@ Cluster analysis of Angle + Time of posture
 │── 5.2 Time_window_features.py
 │── 5.3 Time_Clustering.py
 SVM classification
-│── SVM_classification.py
+│── 6.SVM_classification.py
 │── README.md # Project description
 ```
 ##  Requirements
